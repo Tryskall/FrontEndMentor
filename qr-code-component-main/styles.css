@@ -1,0 +1,55 @@
+/* File: styles.css for styling index.html  */
+
+
+.root {
+    --White: hsl(0, 0%, 100%);
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+    --p-font: 15px;
+    --Outfit-400:  ;
+    --Outfit-700:  ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(212, 45%,89%);
+}
+
+.card {
+    margin: 200px auto;
+    background: var(--White);
+    border-radius: 30px;
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr {
+    margin: 20px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+h1 {
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    text-align: center;
+}
+
+.attribution {
+    position: absolute;
+    top: 1000px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { color: hsl(228, 45%, 44%)}
